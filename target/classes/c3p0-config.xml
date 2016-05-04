@@ -1,0 +1,19 @@
+<c3p0-config>
+    <default-config>
+        <property name="user">yuhb</property>
+        <property name="password">860211</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/greenfire</property>
+        <property name="initialPoolSize">5</property>
+        <property name="maxIdleTime">7200</property>
+        <property name="maxPoolSize">50</property>
+        <property name="minPoolSize">5</property>
+        <property name="acquireIncrement">5</property>
+        <property name="acquireRetryAttempts">60</property>
+        <property name="acquireRetryDelay">1000</property>
+        <property name="automaticTestTable">conn_test</property>
+        <property name="testConnectionOnCheckin">true</property>
+        <property name="checkoutTimeout">60000</property>
+        <property name="idleConnectionTestPeriod">60</property>
+    </default-config>
+</c3p0-config>
