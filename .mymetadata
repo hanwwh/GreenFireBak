@@ -3,7 +3,7 @@
   type="WEB"
   name="GreenFire Maven Webapp"
   id="myeclipse.1462330718550"
-  context-root="/gnfire"
+  context-root="/GreenFire"
   j2ee-spec="5.0"
   archive="GreenFire Maven Webapp.war">
   <attributes>
